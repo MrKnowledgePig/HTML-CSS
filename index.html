@@ -2,36 +2,35 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    <script>
-        window.onload = function (e) {
-            console.log('hola Javascript');
-            var title = window.document.getElementById('title').innerText;
-            console.log('Title: ', title);
-        };
-        console.log('hola html');
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    window.addEventListener('load', function (e) {
+      console.log('hi Javascript');
+      var title = document.getElementById('title').innerText;
+      console.log('Title: ', title);
+    });
+    console.log('hi html');
+  </script>
 </head>
 
 
-<body>
-    <div class="wrapper">
-        <h1 id="title">About Lachlan</h1>
-        <h2 id="class">Interesting Facts</h2>
-        <ul>
-            <li>Works at Macdonalds</li>
-            <li>Productive</li>
-            <li>Likes Videogames</li>
-            <li>Plays Piano</li>
-            <li>Has PUBG</li>
-        </ul>
-        <p id="paragraph">Lachlan was a beautiful Macdonalds worker. He was the best of the best, but unfortunately he died playing Fortnite.</p>
-    </div>
-
+<body onload="console.log('hi body')">
+  <div class="wrapper">
+    <h1 id="title">About Lachlan</h1>
+    <h2 id="class">Interesting Facts</h2>
+    <ul>
+      <li>Works at McDonald's</li>
+      <li>Productive</li>
+      <li>Likes Video Games</li>
+      <li>Plays Piano</li>
+      <li>Has PUBG</li>
+    </ul>
+    <p id="paragraph">Lachlan was a beautiful McDonald's worker. He was the best of the best, but unfortunately he died playing Fortnite.</p>
+  </div>
 </body>
 
 </html>

@@ -1,37 +1,27 @@
-body {
-  background-color: aquamarine;
-}
-
-#title {
-  font-size: 29px;
-}
-
-.small {
+#title{
+  font-size: 1cm;
   font-style: italic;
-}
-
-.color-blue {
-  color: blue;
-}
-.link {
-  text-decoration: underline;
-}
-h1 {
-  font-size: 70px;
-}
-
-.content {
-  display: flex;
-  flex: 1;
-  height: 300px;
-  width: 340px;
-  background-color: rgba(34, 100, 23, 0.7);
-  border-radius: 5px 10px 15px 1px;
-  box-shadow: 5px 5px 5px 5px;
-  transform: rotate(30deg);
-}
-
-.content .small {
-  color: blue;
-  font-style: oblique;
-}
+  color: purple;
+  }
+  
+  #class{
+  font-style: italic;
+  color: purple;
+  }
+  
+  li{
+  font-style: unset;
+  color: purple;
+  }
+  
+  div{
+  background-color:#29CDB5 ;
+  border-radius: 2mm;
+  width: 7cm;
+  }
+  
+  #paragraph{
+  color: purple;
+  font-size: 5mm;
+  font-style: normals
+  }

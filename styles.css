@@ -1,27 +1,36 @@
-#title{
+.wrapper {
+  padding: 1rem;
+  margin: 5rem;
+}
+
+#title {
+  margin-bottom: 4rem;
+}
+
+#title {
   font-size: 1cm;
   font-style: italic;
   color: purple;
-  }
-  
-  #class{
+}
+
+#class {
   font-style: italic;
   color: purple;
-  }
-  
-  li{
+}
+
+li {
   font-style: unset;
   color: purple;
-  }
-  
-  div{
-  background-color:#29CDB5 ;
+}
+
+div {
+  background-color: #29cdb5;
   border-radius: 2mm;
   width: 7cm;
-  }
-  
-  #paragraph{
+}
+
+#paragraph {
   color: purple;
   font-size: 5mm;
-  font-style: normals
-  }
+  font-style: normals;
+}
